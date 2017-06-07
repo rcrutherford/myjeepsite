@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<style>
+	.container {
+		display: flex;
+	}
+	.card {
+		width: 20rem;
+	}
+
+	/* for tablet view port */
+	@media (max-width: 700px) {
+		.container {
+			display:inline-block;
+			width:1300px;
+			overflow-x: auto;
+			border: solid 2px red;
+			white-space: nowrap;
+		}
+	
+		.card {
+			width: 300px;
+			display:inline-block;
+		}
+	}
+
+	/* reset for mobile again */
+	@media (max-width: 550px) {
+		.container {
+			display:block;
+			width:100%;
+			overflow-x: visible;
+			border: solid 2px blue;
+			white-space: normal;
+		}
+	
+		.card {
+			width: 100%;
+			display:block;
+		}
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+		  <img class="card-img-top img-fluid" src="https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/promo/Renegade-Promotile-new.jpg.image.1000.jpg" alt="Card image cap">
+		</div>
+
+		<div class="card">
+		  <img class="card-img-top img-fluid" src="https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/promo/Renegade-Promotile-new.jpg.image.1000.jpg" alt="Card image cap">
+		</div>
+
+		<div class="card">
+		  <img class="card-img-top img-fluid" src="https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/promo/Renegade-Promotile-new.jpg.image.1000.jpg" alt="Card image cap">
+		</div>
+
+		<div class="card">
+		  <img class="card-img-top img-fluid" src="https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/promo/Renegade-Promotile-new.jpg.image.1000.jpg" alt="Card image cap">
+		</div>
+	</div>
+</body>
+</html>
