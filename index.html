@@ -29,14 +29,15 @@
 		.cs1text {
 			color:white;
 			text-align: center;
+			height: 80vh;
 		}
 		.carousel-indicators {
-			top:-30px;
+			top:200px;
 		}
 		/*.carousel-inner {
 		   margin-bottom:50px;
 		}*/
-		.carousel-indicators-numbers {
+		/*.carousel-indicators-numbers {
 		    li {
 		      text-indent: 0;
 		      margin: 0 2px;
@@ -55,6 +56,20 @@
 		        background-color: #337ab7;        
 		      }
 		    }
+		}*/
+		.btn-primary {
+			background-color: #ffba00;
+			color: black;
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 10px;
+		}
+		.btn-secondary {
+			background-color: #636363;
+			color: white;
+			display: block;
+			margin: 0 auto;
+			
 		}
 		
 		/* for tablet view port */
@@ -199,29 +214,36 @@
 				<div class="carousel-item active">
 					<div>
 						<img class="d-block img-fluid ml-auto mr-auto " src="images/1a.png" alt="First slide"/>
+						<div class="cs1text">
+							<div style="height:60px"></div>
+							<p>YOUR NEW COMPASS</p>
+							<h3>FIND YOUR TRUE NORTH</h3>
+							<p>Whatever you destination, there are a million, beautiful, ever-changing ways to get you there. The All-New Jeep&reg;Comapss, arriving at dealers now.</p>
+							<button type="button" class="btn btn-primary">VEHICLE DETAILS ></button>
+							<button type="button" class="btn btn-secondary">BUILD AND PRICE ></button>
+						</div>
 					</div>
-					<div class="cs1text">
-						<div style="height:60px"></div>
-						<p>YOUR NEW COMPASS</p>
-						<h3>FIND YOUR TRUE NORTH</h3>
-						<p>Whatever you destination, there are a million, beautiful, ever-changing ways to get you there. The All-New Jeep&reg;Comapss, arriving at dealers now.</p>
-						<button type="button" class="btn btn-primary">VEHICLE DETAILS</button>
-						<button type="button" class="btn btn-secondary">BUILD AND PRICE</button>
-					</div>
+					
 				</div>
 				<div class="carousel-item">
 					<img class="d-block img-fluid ml-auto mr-auto " src="images/2a.png" alt="Second slide"/>
+					<div class="cs1text">
+						<div style="height:60px"></div>
+						<img src="images/DriveandDiscover-Logo-White.png" style="height:65px;width:140px;"/>
+						<h3>MORE PEOPLE ARE SWITCHING TO THE JEEP<sub>&reg;</sub> BRAND</h3>
+						<p>No other automotive brand enables drivers to embarace the possibilities out there and make them realities. That's why more people are switching to the Jeep<sub>&reg;</sub> brand than any other.</p>
+						<button type="button" class="btn btn-primary">VEHICLE DETAILS ></button>
+						<button type="button" class="btn btn-secondary">VIEW OFFERS ></button>
+					</div>
 				</div>
-				<div class="cs1text">
-					<div style="height:60px"></div>
-					<img src="images/DriveandDiscover-Logo-White.png" style="height:50px;"/>
-					<h3>MORE PEOPLE ARE SWITCHING TO THE JEEP<sub>&reg;</sub> BRAND</h3>
-					<p>No other automotive brand enables drivers to embarace the possibilities out there and make them realities. That's why more people are switching to the Jeep<sub>&reg;</sub> brand than any other.</p>
-					<button type="button" class="btn btn-primary">VEHICLE DETAILS ></button>
-					<button type="button" class="btn btn-secondary">VIEW OFFERS ></button>
-				</div>
+				
 				<div class="carousel-item">
 					<img class="d-block img-fluid ml-auto mr-auto " src="images/3a.png" alt="Third slide"/>
+					<div class="cs1text">
+						<div style="height:60px"></div>
+						<a href="#" style="color:white;">SEE ALL JEEP<SUB>&REG;</SUB> VEHICLES </a>
+					</div>
+
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -233,6 +255,9 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
+		<div class="disclosures">
+				 <button type="button" class="btn btn-secondary btn-block" id="disclosures_btn">Disclousers</button>
+			</div>
 
 		<div id="card4block">
 			<div class="card ">
